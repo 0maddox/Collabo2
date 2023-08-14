@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: Collabo2_production
-  username: Collabo2
-  password: <%= ENV["COLLABO2_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
