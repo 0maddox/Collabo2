@@ -7,7 +7,7 @@ ruby "2.7.4"
 gem 'jwt'
 #gem 'jwt_denylist'
 
-
+gem 'zeitwerk', '~> 2.6'
 
 gem 'faker'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"

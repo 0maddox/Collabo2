@@ -189,6 +189,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 7.0.6)
   tzinfo-data
+  zeitwerk (~> 2.6)
 
 RUBY VERSION
    ruby 2.7.4p191
